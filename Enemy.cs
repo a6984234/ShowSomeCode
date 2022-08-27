@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour , Enemy_GetHit
     float NowHp;
     Image HPImg;
     public int AtkTime { get; set; } = 3;
+    float xxx;
 
     // Start is called before the first frame update
     private  void Start()
